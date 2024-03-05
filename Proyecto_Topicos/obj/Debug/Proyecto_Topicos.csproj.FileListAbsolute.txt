@@ -1,0 +1,10 @@
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\bin\Debug\Proyecto_Topicos.exe.config
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\bin\Debug\Proyecto_Topicos.exe
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\bin\Debug\Proyecto_Topicos.pdb
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.csproj.AssemblyReference.cache
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.Form1.resources
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.Properties.Resources.resources
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.csproj.GenerateResource.cache
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.csproj.CoreCompileInputs.cache
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.exe
+C:\Users\artur\OneDrive\Documentos\MULTI-MASTER\Proyecto_Topicos\obj\Debug\Proyecto_Topicos.pdb
