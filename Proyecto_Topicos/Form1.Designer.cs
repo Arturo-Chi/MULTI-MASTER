@@ -39,6 +39,7 @@
             this.botont5 = new System.Windows.Forms.Button();
             this.botont6 = new System.Windows.Forms.Button();
             this.botonAyuda = new System.Windows.Forms.Button();
+            this.botonExtra = new System.Windows.Forms.Button();
             this.panel_menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.image_up)).BeginInit();
             this.SuspendLayout();
@@ -46,18 +47,19 @@
             // panel_menu
             // 
             this.panel_menu.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel_menu.Controls.Add(this.botonExtra);
             this.panel_menu.Controls.Add(this.botonAyuda);
             this.panel_menu.Controls.Add(this.botonOpciones);
             this.panel_menu.Location = new System.Drawing.Point(-1, 0);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(144, 500);
+            this.panel_menu.Size = new System.Drawing.Size(144, 552);
             this.panel_menu.TabIndex = 0;
             // 
             // image_up
             // 
             this.image_up.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("image_up.BackgroundImage")));
             this.image_up.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.image_up.Location = new System.Drawing.Point(279, 29);
+            this.image_up.Location = new System.Drawing.Point(265, 31);
             this.image_up.Name = "image_up";
             this.image_up.Size = new System.Drawing.Size(481, 86);
             this.image_up.TabIndex = 1;
@@ -81,9 +83,9 @@
             this.botont1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont1.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont1.Location = new System.Drawing.Point(225, 148);
+            this.botont1.Location = new System.Drawing.Point(220, 135);
             this.botont1.Name = "botont1";
-            this.botont1.Size = new System.Drawing.Size(126, 153);
+            this.botont1.Size = new System.Drawing.Size(131, 164);
             this.botont1.TabIndex = 2;
             this.botont1.UseVisualStyleBackColor = true;
             this.botont1.Click += new System.EventHandler(this.botont1_Click);
@@ -94,9 +96,9 @@
             this.botont2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont2.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont2.Location = new System.Drawing.Point(455, 148);
+            this.botont2.Location = new System.Drawing.Point(450, 135);
             this.botont2.Name = "botont2";
-            this.botont2.Size = new System.Drawing.Size(126, 156);
+            this.botont2.Size = new System.Drawing.Size(131, 167);
             this.botont2.TabIndex = 3;
             this.botont2.UseVisualStyleBackColor = true;
             // 
@@ -106,9 +108,9 @@
             this.botont3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont3.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont3.Location = new System.Drawing.Point(677, 151);
+            this.botont3.Location = new System.Drawing.Point(672, 135);
             this.botont3.Name = "botont3";
-            this.botont3.Size = new System.Drawing.Size(126, 156);
+            this.botont3.Size = new System.Drawing.Size(131, 167);
             this.botont3.TabIndex = 4;
             this.botont3.UseVisualStyleBackColor = true;
             // 
@@ -118,9 +120,9 @@
             this.botont4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont4.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont4.Location = new System.Drawing.Point(225, 333);
+            this.botont4.Location = new System.Drawing.Point(220, 333);
             this.botont4.Name = "botont4";
-            this.botont4.Size = new System.Drawing.Size(126, 156);
+            this.botont4.Size = new System.Drawing.Size(131, 167);
             this.botont4.TabIndex = 5;
             this.botont4.UseVisualStyleBackColor = true;
             // 
@@ -130,9 +132,9 @@
             this.botont5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont5.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont5.Location = new System.Drawing.Point(455, 333);
+            this.botont5.Location = new System.Drawing.Point(450, 333);
             this.botont5.Name = "botont5";
-            this.botont5.Size = new System.Drawing.Size(126, 156);
+            this.botont5.Size = new System.Drawing.Size(131, 167);
             this.botont5.TabIndex = 6;
             this.botont5.UseVisualStyleBackColor = true;
             // 
@@ -142,9 +144,9 @@
             this.botont6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botont6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botont6.ForeColor = System.Drawing.Color.NavajoWhite;
-            this.botont6.Location = new System.Drawing.Point(677, 333);
+            this.botont6.Location = new System.Drawing.Point(672, 333);
             this.botont6.Name = "botont6";
-            this.botont6.Size = new System.Drawing.Size(126, 156);
+            this.botont6.Size = new System.Drawing.Size(131, 167);
             this.botont6.TabIndex = 7;
             this.botont6.UseVisualStyleBackColor = true;
             // 
@@ -154,18 +156,30 @@
             this.botonAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botonAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonAyuda.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.botonAyuda.Location = new System.Drawing.Point(39, 126);
+            this.botonAyuda.Location = new System.Drawing.Point(39, 117);
             this.botonAyuda.Name = "botonAyuda";
             this.botonAyuda.Size = new System.Drawing.Size(65, 65);
             this.botonAyuda.TabIndex = 1;
             this.botonAyuda.UseVisualStyleBackColor = true;
+            // 
+            // botonExtra
+            // 
+            this.botonExtra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("botonExtra.BackgroundImage")));
+            this.botonExtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.botonExtra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonExtra.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.botonExtra.Location = new System.Drawing.Point(29, 384);
+            this.botonExtra.Name = "botonExtra";
+            this.botonExtra.Size = new System.Drawing.Size(90, 94);
+            this.botonExtra.TabIndex = 2;
+            this.botonExtra.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ClientSize = new System.Drawing.Size(932, 501);
+            this.ClientSize = new System.Drawing.Size(835, 551);
             this.Controls.Add(this.botont6);
             this.Controls.Add(this.botont5);
             this.Controls.Add(this.botont4);
@@ -195,6 +209,7 @@
         private System.Windows.Forms.Button botont5;
         private System.Windows.Forms.Button botont6;
         private System.Windows.Forms.Button botonAyuda;
+        private System.Windows.Forms.Button botonExtra;
     }
 }
 
